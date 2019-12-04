@@ -43,8 +43,8 @@ void calc_bigrams(const string& fn) {
 
 // Given words w1 and w2,
 // 0. process the words 
-// 1. print the words
-// 2. if bigram (w1, w2) is not found, print "Bigram not found"
+// 1. if bigram (w1, w2) is not found, only print "Bigram <w1>, <w2> not found"
+// 2. print the words
 // 3. print how many times w1 appears
 // 4. print how many times (w1, w2) appears
 // 5. print count(w1, w2)/count(w1)
